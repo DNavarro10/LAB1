@@ -10,7 +10,6 @@
 <body>
 	<div class="titulo">
 		<header>
-			<h1>Curso de PHP - Semana 1</h1>
 		</header>
 	</div>
 	<div class="main">
