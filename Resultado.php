@@ -23,4 +23,9 @@
 					print('<br/><a href="index.php">Volver</a>');
 				}				
 			}
+	}
+else{
+	print("Ingresa alg&uacute;n valor");
+	print('<br/><a href="index.php">Volver</a>');
+}
 ?>

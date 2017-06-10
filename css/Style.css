@@ -1,37 +1,90 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
-body, html{
+
+body,
+html {
 	height: 100%;
-	background: #f7eeed;
+	background: #4e2e2a;
 	max-height: 800px;
 }
+
 .titulo {
 	margin-top: 30px;
 }
 
-header, .main,  footer{
-	width: 50%;
+header,
+.main,
+footer {
+	width: 60%;
 	padding: 50px;
 	margin: auto;
 	background: #fdf8f1;
 	font-family: 'Roboto', sans-serif;
 	-webkit-box-shadow: 1px 2px 5px;
-	box-shadow:1px 2px 5px ;
+	box-shadow: 1px 2px 5px;
 }
-header{
+
+header {
 	padding-top: 50px;
 	text-align: center;
 	margin-bottom: 20px;
 }
-.main, footer{
+h1, h2{
+	text-shadow:2px 1px 2px #baa7a5;
+}
+h2{
+	margin-bottom: 20px;
+	
+}
+
+.main,
+footer {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	text-align: center;
 }
-footer{
+
+footer {
 	display: block;
 	margin-top: 20px;
-	bottom: 0;
+}
+
+#operaciones {
+	overflow: hidden;
+	margin: 10px;
+	width: 130px;
+	height: 25px;
+
+}
+
+
+
+.form p{
+	padding: 5px;
+	margin: 5px;
+	
+}
+
+.form #borrar, #enviar {
+	height: 28px;
+	width: 65px;
+	padding: 5px;
+	margin-top: 20px;
+	font-size: .7em;
+	font-weight: bold;
+	background-color:#4d412a;
+	color:azure;
+}
+
+.text {
+	margin-top: 10px;
+	text-align: center;
+	width: 90px;
+	height: 26px;
+	font-size: .7em;
+	font-weight: bold;
+	
 }
