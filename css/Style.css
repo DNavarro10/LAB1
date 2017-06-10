@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html{
+	height: 100%;
+	background: #f7eeed;
+	max-height: 800px;
+}
+.titulo {
+	margin-top: 30px;
+}
+
+header, .main,  footer{
+	width: 50%;
+	padding: 50px;
+	margin: auto;
+	background: #fdf8f1;
+	font-family: 'Roboto', sans-serif;
+	-webkit-box-shadow: 1px 2px 5px;
+	box-shadow:1px 2px 5px ;
+}
+header{
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.main, footer{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+footer{
+	display: block;
+	margin-top: 20px;
+	bottom: 0;
+}
